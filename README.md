@@ -1,26 +1,34 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+IonReddit
+This is an Ionic 2 mobile application that uses the Reddit API to view subreddits by category.
 
-## How to use this template
+Version
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
+1.0.0
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
+Usage
 
-### With the Ionic CLI:
+Installation
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Install the dependencies
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+$ npm install
+Serve
 
-Then, to run it, cd into `myTabs` and run:
+To serve in the browser
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+$ ionic serve
+To Add Platforms
 
-Substitute ios for android if not on a Mac.
+$ cordova platform add android
+$ cordova platform add ios
+Run Platforms
 
+To run in avd
+
+$ ionic run android
+$ ionic run ios
+Build Android APK File
+
+To build APK file to output folder
+
+$ ionic build android
